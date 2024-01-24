@@ -1,0 +1,67 @@
+
+
+.ChessBoard{
+    cursor: pointer;
+   
+    
+}
+h2{
+    margin-left: 780px;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(white, black, white);
+    height: 45px;
+    width: 320px;
+    color: bisque;
+}
+h2:hover{
+    background-image: linear-gradient(red, green, yellow);
+}
+
+
+body{
+    /* background-color: gray; */
+}
+.ChessBoard{
+    border: 22px solid black;
+    width: 640px;
+    height: 640px;
+    margin: 20px;
+   margin-left: 600px;
+  
+   
+}
+
+.ChessBoard:hover{
+    background-color: brown;
+}
+.black{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(134, 134, 134);
+    float: inline-start;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.white{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    float: inline-start;
+    font-size: 50px;
+    text-align: center;
+}
+
+#police:hover{
+    color: brown;
+    /* animation: Solar 3s infinite; */
+    /* transform: translateY(80px); */
+}
+
+
+#police1:hover{
+    color: green;
+} 
